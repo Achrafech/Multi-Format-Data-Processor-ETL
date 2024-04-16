@@ -70,7 +70,7 @@ def log_progress(message):
     with open(log_file,"a")as f:
         f.write(timestamp + ','+message+'\n')    
 
-log_progress("ETL job Dtarted")
+log_progress("ETL job Started")
 
 log_progress("Extract phase Started")
 extracted_data = extract()
